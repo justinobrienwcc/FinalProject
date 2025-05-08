@@ -52,6 +52,7 @@ CREATE TABLE RentalRecord (
     FOREIGN KEY (carId) REFERENCES Car(carId)
         ON DELETE SET NULL ON UPDATE CASCADE
 );
+-- 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
 
 -- Insert Customer records
 INSERT INTO Customer (customerId, firstName, lastName, phoneNumber, licenseNumber) VALUES

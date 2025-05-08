@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.finalproject.IndexController" spacing="10">
+    <TextField fx:id="firstNameField" promptText="Enter your first name"/>
+    <Button text="Submit" onAction="#handleSubmit"/>
+    <Text fx:id="responseText"/>
+</VBox>
+
+
+<!-- In this file, you'll define the layout, such as the TextField, Button, and Text elements.-->
+
+<!--In this FXML file:-->
+
+    <!--fx:id="firstNameField" and fx:id="responseText" are used to link the FXML elements to the Java controller.-->
+
+    <!--onAction="#handleSubmit" links the Button to the handleSubmit method in the controller.-->
